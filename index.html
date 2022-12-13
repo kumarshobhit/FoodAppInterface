@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links for google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- font style links -->
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+
+    <!-- glide slider stylesheetps -->
+    <link rel="stylesheet" href="Glide CSS/glide.core.min.css">
+    <link rel="stylesheet" href="Glide CSS/glide.theme.min.css">
+
+    <title>JTGeats</title>
+</head>
+
+<body>
+
+    <div class="JTGeats">
+        <section class="header">
+            <div class="JTGeatsText">JTGeats</div>
+            <div class="MainMenuTop">
+                <div>Home</div>
+                <div>About</div>
+                <div>Menu</div>
+                <div>Blog</div>
+                <div>Contact</div>
+            </div>
+            <div class="SearchCart">
+                <div>
+                    <img src="././icons/Search.svg" alt="search for a dish">
+                </div>
+                <div class="ellipse"></div>
+                <div class="modal__icon">
+                    <img src="././icons/Cart.svg" alt="add to cart">
+                </div>
+            </div>
+        </section>
+        <div class="overlay overlay--hidden"></div>
+        <div class="modal modal--hidden">
+            <div class="modal__contents">
+                <div class="modal__image">
+                    <img src="././icons/Cart.svg" alt="">
+                </div>
+                <div class="modal__frame">
+                    <h3>Cart is Empty</h3>
+                    <p>Add some items to the cart to checkout</p>
+                </div>
+                <div class="modal__button">
+                    Back to Menu
+                </div>
+            </div>
+        </div>
+        <section class="landing">
+            <div class="HeroDisplay">
+                <div class="Text TextHeading">
+                    Authentic Home food in India
+                </div>
+                <div class="Text TextContent">
+                    JTGeats is a courier service in which authentic home cook food is delivered to a customer.
+                </div>
+                <div class="SearchInput">
+                    <div class="SearchText">Search food you love</div>
+                    <div class="SearchButton">
+                        <span class="ButtonText">Search</span>
+                    </div>
+                </div>
+            </div>
+            <div class="HeroImage">
+                <img src="././icons/cooking.svg" alt="food cooking image">
+            </div>
+        </section>
+        <section class="kitchen">
+            <div class="KitchenCards">
+                <div class="Filtersecon">
+                    <h3 class="KitchenText">Home Kitchen</h3>
+                    <div class="CardsHome">
+                        <div class="framerow">
+                            <div class="frame">
+                                <div class="DiscountCard"><span>50%</span></div>
+                                <div id="img1" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <!-- <div class="IconCart"> -->
+                                            <img src="././icons/plus.svg" alt="">
+                                            <!-- </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div id="img2" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div class="DiscountCard"><span>20%</span></div>
+                                <div id="img3" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div id="img4" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div class="DiscountCard"><span>50%</span></div>
+                                <div id="img5" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div id="img6" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div class="DiscountCard"><span>20%</span></div>
+                                <div id="img7" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div class="DiscountCard"><span>50%</span></div>
+                                <div id="img8" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div class="DiscountCard"><span>50%</span></div>
+                                <div id="img9" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div id="img10" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div class="DiscountCard"><span>20%</span></div>
+                                <div id="img11" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame">
+                                <div id="img12" class="CardImage"></div>
+                                <div class="TextBox">
+                                    <div class="row1">
+                                        <div id="text">Home made pizza</div>
+                                        <div id="price">₹190</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="group1">
+                                            <div class="RatingCard">
+                                                <div>
+                                                    <img src="././icons/star.svg" alt="">
+                                                </div>
+                                                <div class="RatingCardText">4.7</div>
+                                            </div>
+                                            <div class="TimeCard">
+                                                <div class="TimeCardText">50-79 min</div>
+                                                <!-- <div class="RatingCardText">min</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="PlusCard">
+                                            <div class="IconCart">
+                                                <img src="././icons/plus.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- trending items -->
+                <div class="container">
+                    <h3 class="TrendingText">Popular Items</h3>
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <div class="frame glide__frame">
+                                        <div id="img1" class="CardImage"></div>
+                                        <div class="TextBox">
+                                            <div class="row1">
+                                                <div id="text">Home made pizza</div>
+                                                <div id="price">₹190</div>
+                                            </div>
+                                            <div class="row2">
+                                                <div class="group1">
+                                                    <div class="RatingCard">
+                                                        <div>
+                                                            <img src="././icons/star.svg" alt="">
+                                                        </div>
+                                                        <div class="RatingCardText">4.7</div>
+                                                    </div>
+                                                    <div class="TimeCard">
+                                                        <div class="TimeCardText">50-79 min</div>
+                                                        <!-- <div class="RatingCardText">min</div> -->
+                                                    </div>
+                                                </div>
+                                                <div class="IconGroup">
+                                                    <div class="PlusCard">
+                                                        <div class="IconCart">
+                                                            <img src="././icons/minus.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="SmallText">1</div>
+                                                    <div class="PlusCard">
+                                                        <div class="IconCart">
+                                                            <img src="././icons/plus.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="frame glide__frame">
+                                        <div class="DiscountCard"><span>20%</span></div>
+                                        <div id="pop2" class="CardImage"></div>
+                                        <div class="TextBox">
+                                            <div class="row1">
+                                                <div id="text">Home made pizza</div>
+                                                <div id="price">₹190</div>
+                                            </div>
+                                            <div class="row2">
+                                                <div class="group1">
+                                                    <div class="RatingCard">
+                                                        <div>
+                                                            <img src="././icons/star.svg" alt="">
+                                                        </div>
+                                                        <div class="RatingCardText">4.7</div>
+                                                    </div>
+                                                    <div class="TimeCard">
+                                                        <div class="TimeCardText">50-79 min</div>
+                                                        <!-- <div class="RatingCardText">min</div> -->
+                                                    </div>
+                                                </div>
+                                                <div class="PlusCard">
+                                                    <div class="IconCart">
+                                                        <img src="././icons/plus.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="frame glide__frame">
+                                        <div class="DiscountCard"><span>20%</span></div>
+                                        <div id="pop3" class="CardImage"></div>
+                                        <div class="TextBox">
+                                            <div class="row1">
+                                                <div id="text">Home made pizza</div>
+                                                <div id="price">₹190</div>
+                                            </div>
+                                            <div class="row2">
+                                                <div class="group1">
+                                                    <div class="RatingCard">
+                                                        <div>
+                                                            <img src="././icons/star.svg" alt="">
+                                                        </div>
+                                                        <div class="RatingCardText">4.7</div>
+                                                    </div>
+                                                    <div class="TimeCard">
+                                                        <div class="TimeCardText">50-79 min</div>
+                                                        <!-- <div class="RatingCardText">min</div> -->
+                                                    </div>
+                                                </div>
+                                                <div class="PlusCard">
+                                                    <div class="IconCart">
+                                                        <img src="././icons/plus.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                                <div class="arrow-left"></div>
+                            </button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                                <div class="arrow-right"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                    <div id="SubmitButton" class="SubmitButton">Request a Dish</div>
+                </div>
+        </section>
+        <section class="ServiceContainer">
+            <div class="TextFrame">
+                <div class="service__heading">
+                    <h3>We are providing best</h3>
+                    <p> home cooked food delivery service.</p>
+                </div>
+                <div class="service__content">
+                    <p>Away from home and craving the tasty homemade recipes?
+                        Choose from a selection of our delicious home cooked dishes </p>
+                </div>
+            </div>
+            <div class="VideoFrame">
+                <video id="myVideo">
+                    <source src="././videos/pizza.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+                <div class="playbutton">
+                    <div class="video__arrow"></div>
+                </div>
+            </div>
+        </section>
+        <div class="modal2 modal2--hidden ">
+            <div class="modal2__contents">
+                <h3>Request a Dish</h3>
+                <form action="#">
+                    <div class="data">
+                        <label>Name*</label>
+                        <input type="text" require placeholder="Enter name of the dish">
+                    </div>
+                    <div class="data">
+                        <label>Upload an image</label>
+                        <input type="text" placeholder="Paste a url">
+                    </div>
+                </form>
+                <div class="modal2__buttons">
+                    <div class="modal2__button">
+                        Cancel
+                    </div>
+                    <div class="modal2__button">
+                        Submit
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="contactus">
+            <div class="HeroDisplay">
+                <div class="ContactGroup">
+                    <div class="ContactHeading">
+                        <p>Do you have a question</p>
+                        <p>or want to become a seller?</p>
+                    </div>
+                    <div class="ContactContent">
+                        Fill this form and our manager will contact you next 48 hours.
+                    </div>
+                </div>
+                <div class="ContactBox">
+                    <div class="ContactDetails">
+                        <div class="Details"><span>Your Name</span></div>
+                        <div class="Details"><span>Your e-mail</span></div>
+                    </div>
+                    <div class="ContactText"><span>Your message</span></div>
+                    <div class="SubmitButton">Submit</div>
+                </div>
+            </div>
+            <div class="HeroImage">
+                <img src="././icons/Food delivery illustration.svg" alt="fool delivery image">
+            </div>
+        </section>
+        <section id="footer">
+            <div class="FooterContent">
+                <div class="JTGeatsText">JTGeats</div>
+                <div class="MainMenuTop">
+                    <div>Home</div>
+                    <div>About</div>
+                    <div>Menu</div>
+                    <div>Blog</div>
+                    <div>Contact</div>
+                </div>
+                <div class="SocialIcons">
+                    <div>
+                        <img src="././icons/Facebook.svg" alt="facebook handle">
+                    </div>
+                    <div>
+                        <img src="././icons/instagram.svg" alt="instagram handle">
+                    </div>
+                </div>
+            </div>
+            <div class="vectorline"></div>
+        </section>
+        </section>
+
+        <!-- script for implementing glide carousel -->
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        <script>
+            const config = {
+                type: 'carousel',
+                perView: 3
+            }
+            new Glide('.glide', config).mount()
+        </script>
+
+
+</body>
+
+</html>
+
+<!-- script for implementing dom functionalities -->
+<script src="app.js"></script>

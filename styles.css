@@ -1,0 +1,1258 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0 ;
+    overflow-x: hidden;
+}
+
+/* header section */
+.header {
+    width:100vw;
+    height:80px;
+    background: #1AC073;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.JTGeatsText{
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+
+    position: relative;
+    top: 0;
+    left: 34px;
+    
+}
+
+.MainMenuTop{
+    padding:0;
+    width:400px;
+    margin-left:90px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items:center;
+
+    position: relative;
+    top: -1px;
+    left: 87px;
+}
+
+.MainMenuTop div {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+.SearchCart{
+    padding: 0;
+    width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SearchCart div:nth-of-type(1) {
+    position: relative;
+    top: 0px;
+    left: 94px
+}
+
+.modal__icon {
+    position: relative;
+    top: -2px;
+    left: 75px;
+}
+
+.ellipse {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 216px;
+    top: -3px;
+    background: #F3BA00;
+    border-radius: 50%;
+}
+
+/* landing page */
+.landing {
+    background: #1AC073;
+    width:100vw;
+    margin:0;
+    padding-top:150px;
+    height: 571px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.HeroDisplay {
+    width: 534px;
+    height: 317px;
+
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    position: relative;
+    top:1px;
+    left:29px;
+}
+
+.HeroImage img {
+    position: relative;
+    width: 600px;
+    left: -4px;
+    top: 4px;
+    height: 565px;
+}
+
+.TextHeading {
+    width: 534px;
+    height: 147px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.TextContent {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 441px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+
+    position: relative;
+    top:15px;
+}
+
+.SearchInput {
+    width: 398px;
+    height: 58px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    top: 35px;
+    left: 2px;
+}
+
+.SearchText {
+    width: 160px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #929292;
+    padding:20px;
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+
+.SearchButton {
+    width: 112px;
+     height: 58px;
+    background: #F3BA00;
+    border-radius: 0px 10px 10px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    position: relative;
+    top: 3px;
+    left: -4px;
+}
+
+.HeroImage {
+    width: 521.63px;
+    height: 520px;
+}
+
+
+/* kitchen section */
+.Filtersecon {
+    margin-bottom: 80px;
+}
+.kitchen {
+    margin: 0;
+    width: 1440px;
+    height: 2000px;
+    background: #F7F8FA;
+}
+
+.KitchenCards{
+    width: 1180px;
+    height: 1068px;
+    padding:100px ;
+}
+
+
+.KitchenText {
+    width: 300px;
+    height: 24px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 24px;
+    letter-spacing: -0.012em;
+    color: #000000;
+
+    position: relative;
+    top: -38px;
+    left: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.framerow {
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-between;
+    flex-wrap:wrap ;
+}
+
+.frame {
+    width: 277px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(187, 187, 187, 0.25);
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom:30px;
+
+    position: relative;
+    top: -16px;
+    left: 32px
+}
+
+.CardImage {
+    width: 277px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#img1 {
+    background: url("./images/img19.png") center/cover, #797979;
+}
+
+#img2 {
+    background: url("./images/img2.png") center/cover, #797979;
+}
+
+#img3 {
+    background: url("./images/img311.png") center/cover, #797979;
+}
+
+#img4 {
+    background: url("./images/img412.png") center/cover, #797979;
+}
+
+#img5 {
+    background: url("./images/img5.png") center/cover, #797979;
+}
+
+#img6 {
+    background: url("./images/img6.png") center/cover, #797979;
+}
+
+#img7 {
+    background: url("./images/img7.png") center/cover, #797979;
+}
+
+#img8 {
+    background: url("./images/img8.png") center/cover, #797979;
+}
+
+#img9 {
+    background: url("./images/img19.png") center/cover, #797979;
+}
+
+#img10 {
+    background: url("./images/img2.png") center/cover, #797979;
+}
+
+#img11 {
+    background: url("./images/img311.png") center/cover, #797979;
+}
+
+#img12 {
+    background: url("./images/img412.png") center/cover, #797979;
+}
+
+#pop2 {
+    background: url("./images/pop2.png") center/cover, #797979;
+}
+
+#pop3 {
+    background: url("./images/pop3.png") center/cover, #797979;
+}
+
+.TextBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+    width: 277px;
+    height: 55px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(187, 187, 187, 0.25);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.row1 {
+
+    width: 246px;
+    height: 20px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 127px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #1B1C21;
+    font-family: 'Roboto';
+    font-style: normal;
+    position: relative;
+    top: -4px;
+    left: -1px;
+}
+
+#price {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 35px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #1B1C21;
+    position: relative;
+    top: -5px;
+}
+
+.row2 {
+
+    width: 241px;
+    height: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group1 {
+
+    padding: 0px;
+    width: 121px;
+    height: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.RatingCard {
+    width: 45px;
+    height: 20px;
+    background: #F7F8FA;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px;
+    /* gap: 4px; */
+
+    position: relative;
+     left: -8px;
+     top:-3px;
+}
+
+.RatingCardText {
+    width: 17px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #1B1C21;
+
+    left: 3px;
+    position: relative;
+    top: 0px;
+}
+
+.TimeCard {
+    /* width: 50px; */
+    height: 20px;
+    width:66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px;
+    
+    background: #BEBEBE;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+
+    position: relative;
+    left: -1px;
+    top:-3px;
+
+    scale:0.95
+}
+
+
+.TimeCardText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size:12px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: -0.012em; 
+    color: #1B1C21;
+    background: #F7F8FA;
+    border-radius: 5px;
+
+    font-size: 12px;
+    width: 64px;
+    height: 20px;
+    text-align: center;
+
+} 
+
+.PlusCard {
+    width: 22px;
+    height: 20px;
+    background: #F3BA00;
+    border-radius: 5px;
+
+    position: relative;
+    top: -3px;
+    left: -4px;
+}
+
+.IconGroup {
+    position: relative;
+    left: 10px;
+    top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.IconGroup .PlusCard:nth-child(1) {
+    border-radius: 5px 0 0 5px;
+}
+
+.IconGroup .PlusCard:nth-child(2) {
+    border-radius: 0px 5px 5px 0;
+}
+
+.PlusCard img {
+    height: 19px;
+}
+
+.SmallText {
+    position: relative;
+    top:-3px;
+    text-align: center;
+    width: 22px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #000000;
+    border: 1px solid #F3BA00;
+    margin-left: -5px;
+    margin-bottom: 6px;
+}
+
+.DiscountCard{
+    position: absolute;
+    width: 25px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    padding: 5px 3px;
+    background: #F3BA00;
+    border-radius: 10px 5px 5px 5px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.DiscountCard span {
+    position: relative;
+    top: 3px;
+    
+}
+
+.DiscountCardText {
+    width: 23px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #101115;
+}
+
+/* footer section */
+#footer {
+    width: 101vw;
+    height: 157px;
+    background: #1AC073;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#footer .JTGeatsText {
+    position: relative;
+    top: -9px;
+    left: 20px;
+}
+
+#footer .MainMenuTop {
+    left: -7px;
+    position: relative;
+    top: -12px;
+}
+
+.FooterContent {
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.SocialIcons {
+    padding: 0px;
+    gap: 13px;
+    width: 68.15px;
+    height: 26px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    position: relative;
+    top: -15px;
+    left: 55px;
+
+}
+
+.vectorline {
+    width: 1180px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+
+    position: relative;
+    top: -22px;
+    left: 37px;
+}
+
+/* contact section */
+
+
+.contactus {
+    background: #F7F8FA;
+    width: 100vw;
+    margin: 0;
+    padding-top: 150px;
+    height: 508px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    margin-bottom:-64px;
+}
+
+.ContactGroup {
+    width: 317px;
+    height: 73px;
+    margin-bottom: 40px;
+}
+
+.ContactHeading p {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 286px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.012em;
+    color: #101115;
+    margin-bottom: 10px;
+}
+
+.ContactHeading p:nth-child(1) {
+    position: relative;
+    top: -18px;
+    left: -1px;
+}
+
+.ContactHeading p:nth-child(2) {
+    position: relative;
+    top: -65px;
+    left: -3px;
+}
+
+.ContactContent {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 317px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #1B1C21;
+
+    position: relative;
+    top: -95px;
+    left: -3px;
+}
+
+.ContactDetails {
+    width: 632px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+    top: 26px;
+}
+
+.Details {
+    width: 300px;
+    height: 58px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #929292;
+    padding-left: 10px;
+    scale: 1.01 1;
+    position: relative;
+    top: -30px;
+}
+
+.Details span {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.Details span:nth-child(1) {
+    position: relative;
+    left: 10px;
+    top: 3px;
+}
+
+
+.ContactText {
+    width: 617px;
+    height: 164px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 12px;
+    position: relative;
+    top: -13px;
+    left: -14px;
+    scale: 0.98 0.9;
+}
+
+.ContactText span {
+    position: relative;
+    top: 41px;
+    left: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #929292;
+}
+
+.SubmitButton {
+    width: 210px;
+    height: 58px;
+    background: #1AC073;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    cursor: pointer;
+
+    position: relative;
+    top: -21px;
+    left: -5px;
+
+}
+
+.contactus img {
+    position: relative;
+    width: 465px;
+    top: -159px;
+    left: 80px;
+    height: 591px;
+}
+
+
+/* Trending Items */
+
+.TrendingText {
+    font-family: 'Roboto';
+    font-style: normal;
+    height: 24px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 24px;
+    letter-spacing: -0.012em;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    left: 27px;
+    top: 2px;
+}
+
+/* trending items */
+.ItemCards {
+    width: 1178px;
+    height: 337px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ItemCards .frame:nth-child(3) {
+    filter: drop-shadow(0px 6px 40px rgba(0, 0, 0, 0.14));
+}
+
+
+#CircleRight {
+    background: #1AC073
+}
+
+/* styling for frames */
+
+.glide__frame .DiscountCard {
+    height: 30px;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    width: 30px;
+    text-align: center;
+}
+
+
+.glide__track {
+    padding-left: 51px;
+}
+
+.glide__arrow.glide__arrow--left {
+    width: 71.5px;
+    height: 71.5px;
+    border: 3px solid #1AC073;
+    border-radius: 50%;
+    pointer-events: none;
+    position: relative;
+    left: -8px;
+    top: -234px;
+}
+
+
+.glide__arrow.glide__arrow--right {
+    width: 71.5px;
+    height: 71.5px;
+    border: 3px solid #1AC073;
+    border-radius: 50%;
+    position: relative;
+    pointer-events: none;
+    position: relative;
+    top: -307px;
+    left: 1175px;
+}
+
+.glide__arrow.glide__arrow--left:hover,
+.glide__arrow.glide__arrow--right:hover {
+    cursor: pointer;
+    transition: all 0.3s smooth;
+    background-color: #1AC073;
+    color: #fff;
+}
+
+.glide .TimeCard {
+    width: 60px;
+    transition: all 0.3s smooth;
+}
+
+.glide .frame:hover {
+    filter: drop-shadow(0px 6px 40px rgba(0, 0, 0, 0.14));
+}
+
+.glide .frame .TextBox {
+    height: 94px;
+}
+
+
+
+.arrow-left {
+    /* margin:15px 0 15px; */
+    border-left: 20px solid transparent;
+    border-right: 20px solid #1AC073;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    display: inline-block;
+
+    position: relative;
+    left: -10.5px;
+    top: 0.5px;
+
+    pointer-events: auto;
+
+}
+
+.arrow-right {
+    /* margin: 15px 30px; */
+    border-right: 20px solid transparent;
+    border-left: 20px solid #1AC073;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    display: inline-block;
+
+    position: relative;
+    left: 14px;
+    top: 3px;
+
+    pointer-events: auto;
+}
+
+.arrow-left:hover {
+    border-right: 20px solid #fff;
+    transition: all 0.3s smooth
+}
+
+.arrow-right:hover {
+    border-left: 20px solid #fff;
+    transition: all 0.3s smooth;
+}
+
+#SubmitButton {
+    margin: 30px auto;
+    top: -154px;
+    left: 31px
+}
+
+/* service section */
+
+.ServiceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+    width: 100vw;
+    /* background: #FAFAFA;  */
+    background: linear-gradient(to top,
+            #C7EACC 0%,
+            #C7EACC 35%,
+            #FAFAFA 35%,
+            #FAFAFA 100%);
+}
+
+.TextFrame {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.service__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.service__heading h3 {
+    position: relative;
+    top: -17px;
+    left: 51px;
+}
+
+.service__heading p {
+    position: relative;
+    top: -64px;
+    left: 53px;
+}
+
+.service__content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    width: 447px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: -10px;
+    position: relative;
+    top: -101px;
+    left: 33px;
+}
+
+.VideoFrame {
+    margin-top: 20px;
+    width: 877px;
+    height: 442px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    position: relative;
+    top: -56px;
+    left: 36px;
+}
+
+.playbutton {
+    width: 71.5px;
+    height: 71.5px;
+    border: 3px solid #1AC073;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #1AC073;
+    top: 45%;
+    left: 45%;
+}
+
+.video__arrow {
+    border-right: 20px solid transparent;
+    border-left: 20px solid #fff;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    display: inline-block;
+
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+#myVideo {
+    width: 100%;
+}
+
+/* modal shopping cart */
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.overlay--hidden {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+.modal__scroll {
+    overflow-y: hidden;
+}
+
+.modal--hidden {
+    display: none;
+}
+
+.modal__contents {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 50px 0;
+    width: 1250px;
+    height: 500px;
+    position: absolute;
+    left: 52px;
+    top: 117px;
+    background: #F7F8FA;
+    border-radius: 20px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+
+
+.modal__image {
+    color: #EDEDED;
+}
+
+.modal__image img {
+    height: 187px;
+    width: 165px;
+}
+
+.modal__frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 751px;
+    height: 69px;
+}
+
+.modal__frame h3 {
+    width: 241px;
+    height: 37px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #000000;
+}
+
+.modal__frame p {
+    position: relative;
+    width: 425px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #AAA7A7;
+    padding-left: 35px;
+    top: -45px;
+}
+
+.modal__button {
+    padding: 19px 25px;
+    width: 200px;
+    height: 30px;
+    background: #1AC073;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 70px;
+
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.modal__icon {
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.modal__button:hover {
+    /* something */
+}
+
+/* modal request dish */
+
+.modal2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+.modal2__scroll {
+    overflow-y: hidden;
+}
+
+.modal2--hidden {
+    display: none;
+}
+
+.modal2__contents {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    width: 1250px;
+    height: 513px;
+    position: absolute;
+    left: 52px;
+    top: 98px;
+    background: #F7F8FA;
+    border-radius: 20px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.modal2 h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 20px;
+    /* identical to box height, or 50% */
+
+    letter-spacing: -0.012em;
+
+    color: #000000;
+}
+
+form {
+    width: 70%;
+}
+
+form .data {
+    height: 45px;
+    width: 100%;
+    margin: 35px 0 55px;
+}
+
+form .data label {
+    font-size: 18px;
+}
+
+form .data input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+.modal2__buttons {
+    margin: 40px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+}
+
+.modal2__button {
+    padding: 19px 25px;
+    width: 200px;
+    height: 30px;
+    background: #1AC073;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .3s ease;
+    cursor: pointer;
+}
